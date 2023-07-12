@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+     .skeleton-loader {
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      background-color: #f3f3f3;
+      animation: skeleton-loader-animation 1s infinite ease-in-out;
+    }
+
+    @keyframes skeleton-loader-animation {
+      0% { opacity: 0.7; }
+      50% { opacity: 0.4; }
+      100% { opacity: 0.7; }
+    }
+   </style>
+</head>
+<body>
+    <h1>Posts</h1>
+    <div id="posts-container"></div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
